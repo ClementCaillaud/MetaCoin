@@ -8,7 +8,7 @@ import "./ConvertLib.sol";
 // token, see: https://github.com/ConsenSys/Tokens. Cheers!
 
 /*
-smart contract déployé sur Ropsten : 0xc7c2e29138b0c758b2a9284c5e198c68450c8b6a
+smart contract déployé sur Ropsten : 0x31bfffe6a87f318127e8898a059fdda18613088e
 */
 
 contract Token
@@ -96,7 +96,7 @@ contract MetaCoin is StandardToken
         balances[msg.sender] = 1234567;
         totalSupply_ = 7654321;
         name = "MetaCoin";
-        decimals = 7;
+        decimals = 0;
         symbol = "MTC";
     }
 
